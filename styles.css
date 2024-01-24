@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.code-container {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    gap: 10px;
+}
+.code {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    width: 50px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+.code:focus {
+    outline: 1px solid blue;
+}
